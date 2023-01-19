@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: 'RalewayPrezi';
+    src: url('RalewayPrezi-Regular.eot');
+    src: local('RalewayPrezi Regular'), local('RalewayPrezi-Regular'),
+        url('RalewayPrezi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RalewayPrezi-Regular.woff2') format('woff2'),
+        url('RalewayPrezi-Regular.woff') format('woff'),
+        url('RalewayPrezi-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RalewayPrezi';
+    src: url('RalewayPrezi-Medium.eot');
+    src: local('RalewayPrezi Medium'), local('RalewayPrezi-Medium'),
+        url('RalewayPrezi-Medium.eot?#iefix') format('embedded-opentype'),
+        url('RalewayPrezi-Medium.woff2') format('woff2'),
+        url('RalewayPrezi-Medium.woff') format('woff'),
+        url('RalewayPrezi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RalewayPrezi';
+    src: url('RalewayPrezi-SemiBold.eot');
+    src: local('RalewayPrezi SemiBold'), local('RalewayPrezi-SemiBold'),
+        url('RalewayPrezi-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('RalewayPrezi-SemiBold.woff2') format('woff2'),
+        url('RalewayPrezi-SemiBold.woff') format('woff'),
+        url('RalewayPrezi-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RalewayPrezi';
+    src: url('RalewayPrezi-Bold.eot');
+    src: local('RalewayPrezi Regular'), local('RalewayPrezi-Bold'),
+        url('RalewayPrezi-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RalewayPrezi-Bold.woff2') format('woff2'),
+        url('RalewayPrezi-Bold.woff') format('woff'),
+        url('RalewayPrezi-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RalewayPrezi';
+    src: url('RalewayPrezi-Black.eot');
+    src: local('RalewayPrezi Black'), local('RalewayPrezi-Black'),
+        url('RalewayPrezi-Black.eot?#iefix') format('embedded-opentype'),
+        url('RalewayPrezi-Black.woff2') format('woff2'),
+        url('RalewayPrezi-Black.woff') format('woff'),
+        url('RalewayPrezi-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

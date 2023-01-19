@@ -1,0 +1,223 @@
+.ant-fullcalendar-selected-day .ant-fullcalendar-value,
+.ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value {
+    background-color: $darkblue1;
+    border: none;
+    outline: none;
+}
+
+.ant-fullcalendar-today .ant-fullcalendar-value,
+.ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-value {
+    box-shadow: unset;
+}
+
+.ant-radio-button-wrapper:hover,
+.ant-select-selection:hover,
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child,
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled),
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    color: $darkblue1;
+    box-shadow: unset !important;
+    border-color: $darkblue1;
+}
+
+.ant-form-item-control .ant-select-focused .ant-select-selection,
+.ant-form-item-control .ant-select-selection:focus,
+.ant-form-item-control .ant-select-selection:active {
+    border-color: $darkblue1;
+    box-shadow: unset !important;
+}
+
+
+.ant-fullcalendar-value:active {
+    background-color: $backround;
+}
+
+
+
+.ant-form-item-control .ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled),
+.ant-form-item-control .ant-select-dropdown-menu-item-selected,
+.ant-form-item-control .ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+    background-color: #f4f4f4;
+
+}
+
+
+.ant-form-item-control .ant-select-focused .ant-select-selection--single.ant-select-selection,
+.ant-form-item-control .ant-select-selection--single.ant-select-selection:focus,
+.ant-form-item-control .ant-select-selection--single.ant-select-selection:active {
+    box-shadow: unset !important;
+
+}
+
+.ant-form-item-control .ant-select-focused .ant-select-selection--single .ant-select-selection__rendered {
+    border-color: $grey1;
+    ;
+}
+
+.ant-form-item-control .ant-select-selection--single:hover .ant-select-selection__rendered {
+    border-color: $grey1;
+}
+
+
+.ant-form-item-control .ant-select {
+    width: 100%;
+}
+
+.ant-form-item-control .ant-select-selection--single {
+    height: unset;
+}
+
+.ant-form-item-control .ant-select-selection--single .ant-select-selection__rendered {
+    line-height: unset;
+    height: 32px;
+    margin: 0;
+    padding: 0 44px 0 12px;
+    display: flex;
+    align-items: center;
+    border: 1px solid $grey1;
+    border-radius: 4px;
+}
+
+.ant-form-item-control .ant-select-selection--single .ant-select-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.ant-form-item-control .ant-select-selection--single.ant-select-selection {
+    border: none;
+}
+
+.ant-form-item-control .ant-select-selection--single .ant-select-selection-selected-value {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    color: $grey1;
+}
+
+
+
+.ant-form-item-control .ant-select-selection--multiple .ant-select-arrow {
+    right: 12px;
+    padding-left: 12px;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+.ant-form-item-control .ant-select-selection--multiple .ant-select-arrow::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0.5px;
+    background-color: $grey1;
+    top: 0;
+    bottom: 0;
+}
+
+.ant-form-item-control .ant-select-selection--multiple .icon-angle-down {
+    font-size: 20px;
+    color: $black1;
+}
+
+.ant-form-item-control .ant-select-selection--multiple .ant-select-selection__clear {
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    right: 56px;
+}
+
+.ant-form-item-control .ant-select-selection--multiple .icon-close {
+    font-size: 20px;
+    color: $grey1;
+
+}
+
+.ant-form-item-control .ant-select-selection--multiple .ant-select-selection__choice {
+    background-color: #F9F9F9;
+    border-color: $grey2 !important;
+    padding-left: 8px;
+}
+
+.ant-form-item-control .ant-select-selection:hover {
+    border-color: $black1 !important;
+}
+
+.ant-form-item-control .ant-select-focused .ant-select-selection,
+.ant-form-item-control .ant-select-selection:focus,
+.ant-form-item-control .ant-select-selection:active {
+    box-shadow: unset !important;
+}
+
+.ant-form-item {
+    margin-bottom: 0;
+}
+.ant-form-item-label {
+    white-space: unset;
+    text-align: left;
+    line-height: unset;
+    margin-bottom: 8px;
+}
+
+
+// buttons
+
+
+.ant-btn::after {
+    display: none !important;
+}
+
+.ant-btn._40 {
+    height: 40;
+}
+
+.ant-btn._36 {
+    height: 36px;
+}
+
+.ant-btn._44 {
+    height: 44px;
+    border-radius: 8px;
+}
+
+.ant-btn small {
+    font-size: 14px;
+}
+
+.ant-btn {
+    height: 32px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 4px;
+    justify-content: center;
+}
+.ant-col .ant-btn {
+    width: 100%;
+}
+
+.ant-btn-primary i {
+    font-size: 20px;
+    color: $white1;
+    margin-right: 10px;
+}
+
+.ant-btn-primary {
+    border: none !important;
+    color: $white1;
+
+}
+
+.ant-btn-primary.blue {
+    background-color: $darkblue1;
+}
+
+.ant-btn-primary.grey {
+    background-color: $grey1;
+}

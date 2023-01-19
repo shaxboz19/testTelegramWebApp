@@ -1,0 +1,195 @@
+@import 'variables', 'mixins', 'config';
+
+body {
+    background-color: $white1;
+    font-family: 'RalewayPrezi', sans-serif;
+}
+
+.page {
+    max-width: 375px;
+    margin: 0 auto;
+    border: 1px solid $white2;
+    border-radius: 8px;
+
+
+    &-header {
+        background-color: $backround;
+        padding: 16px;
+        border-radius: 0 0 20px 20px;
+        margin-bottom: 16px;
+
+
+
+
+        &>span {
+            @include text-caption($grey1);
+            display: block;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        &>h1 {
+            @include text-headline($black1);
+            text-align: center;
+        }
+
+        &>ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+            &>li {
+                margin-bottom: 8px;
+
+                i {
+                    display: inline-block;
+                    margin-right: 8px;
+                    color: $darkblue1;
+                }
+
+                span,
+                small {
+                    @include text-body3($grey1)
+                }
+
+                small {
+                    font-weight: 400;
+                    display: block;
+
+                }
+
+            }
+
+        }
+
+        &>a {
+            @include text-body3($darkblue1)
+        }
+
+        &._2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                @include text-body4($black1);
+                margin-bottom: 16px;
+            }
+
+            .ant-select-selection {
+                background-color: transparent;
+            }
+        }
+
+    }
+
+    &-body {
+        padding: 16px;
+
+        &-calendar {
+            margin-bottom: 8px;
+
+            .ant-fullcalendar-header {
+                padding: 0 0 16px 0;
+            }
+
+            .ant-fullcalendar-calendar-body {
+                padding: 16px 0 16px 0;
+                border-bottom: 1px solid $white2;
+            }
+
+            .ant-fullcalendar {
+                border-color: $white2;
+            }
+
+        }
+
+        &-time {
+            &-header {
+                margin-bottom: 16px;
+
+                h2 {
+                    @include text-subtitle($black1);
+                    text-align: center;
+                    margin-bottom: 8px;
+                }
+
+                span {
+                    @include text-body4($black1);
+                    text-align: center;
+                    display: block;
+                }
+            }
+
+            &-body {
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        margin-bottom: 12px;
+
+                        &>span {
+                            @include text-body2($black1);
+                            display: block;
+                            height: 32px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 4px;
+                            border: 1px solid $darkblue1;
+                            cursor: pointer;
+
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        &-form {
+
+            h2 {
+                @include text-subtitle($black1);
+                margin-bottom: 16px;
+            }
+        }
+
+
+
+
+
+    }
+}
+
+.gmt-time {
+    display: flex;
+    align-items: center;
+
+    &>i {
+        color: $darkblue1;
+        margin-right: 8px;
+    }
+
+    .ant-form-item {
+        display: flex;
+        align-items: center;
+
+        .ant-form-item-label {
+            margin: 0
+        }
+
+        label {
+            @include text-body3($grey1);
+            margin: 0;
+        }
+    }
+
+    .ant-select-selection__rendered {
+        border: none !important;
+        padding: 0 32px 0 0 !important;
+    }
+
+}

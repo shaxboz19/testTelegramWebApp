@@ -14,9 +14,12 @@ export default {
   methods: {
     async onSubmit () {
       try {
-        await this.$axios.post(
-          'https://klinika.itsone.uz/request'
+        const { data } = await this.$axios.post(
+          // 'https://klinika.itsone.uz/request'
+          'http://localhost:3001/request'
         )
+
+        window.location.href = data.url
       } catch (error) {
         console.log(error)
       }
